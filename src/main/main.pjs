@@ -1,0 +1,23 @@
+class PApplet{}
+public class Sound {
+    public static void play(String name) {
+        playA(name);
+    }
+}
+Main main = new Main();
+
+void setup(){
+    main.setup();
+}
+
+void draw(){
+    main.draw();
+}
+
+void mouseClicked() {
+    main.mouseClicked(mouseX, mouseY);
+}
+
+void touchEnd(x, y) {
+    main.mouseClicked(x, y);
+}
