@@ -25,7 +25,7 @@ public class Main extends PApplet {
     }
 
     public void draw() {
-        background(255);
+        background(255, 100);
         nivel1.run();
         nivel1.draw();
     }
