@@ -6,9 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="HandheldFriendly" content="true" />
         <script type="text/javascript" src="src/js/processing.min.js"></script>
+        <style>
+            #aligner{
+                display: flex;
+                align-items: center;
+            }
+            canvas{
+                margin: 0 auto;
+            }
+        </style>
     </head>
     <body>
-        <canvas id="juego"  style="position: relative;"></canvas>
+        <div id="aligner">
+            <canvas id="juego"  style="position: relative;"></canvas>
+        </div>
         
         
         <audio id="bonus0" src="src/snd/bonus.wav"></audio>
