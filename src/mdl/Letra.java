@@ -8,7 +8,7 @@ import processing.core.PImage;
  */
 public class Letra extends Agente {
 
-    private int dietime = 50;
+    private int dietime = 100;
     private ILetra iletra = null;
     private boolean todel;
     private int transaparent = 2;
