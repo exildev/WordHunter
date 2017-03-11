@@ -90,12 +90,12 @@ public abstract class Nivel extends Agente {
 
         Lapix.getInstance().draw();
         
-        if (totaltime <= time) {
+        /*if (totaltime <= time) {
             fill(100, 100, 100);
             rect(100, 100, 600, 400);
             fill(200, 200, 200);
             text("Score: " + Lapix.getInstance().getScore(), 200, 200);
-        }
+        }*/
     }
 
     public void moverLapixA(float mouseX, float mouseY) {
