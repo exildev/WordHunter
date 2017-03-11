@@ -54,7 +54,7 @@ public abstract class Nivel extends Agente {
     }
 
     public void run() {
-        if (totaltime > time) {
+       // if (totaltime > time) {
             super.run();
             for (int i = 0; i < w; i++) {
                 for (int j = 0; j < h; j++) {
@@ -72,7 +72,7 @@ public abstract class Nivel extends Agente {
             }
 
             Lapix.getInstance().run();
-        }
+        //}
     }
 
     public void draw() {
@@ -99,8 +99,8 @@ public abstract class Nivel extends Agente {
     }
 
     public void moverLapixA(float mouseX, float mouseY) {
-        if (totaltime > time) {
+       // if (totaltime > time) {
             Lapix.getInstance().moverA(mouseX, mouseY);
-        }
+       // }
     }
 }
