@@ -129,14 +129,14 @@ public class Lapix extends Agente {
         if (bonus == 3) {
             Sound.play("yahoo");
         }
-        runIn(time + 7, new Runnable() {
+        /*runIn(time + 7, new Runnable() {
             public void run() {
                 //bonus--;
-                /*if (bonus <= 0) {
+                if (bonus <= 0) {
                     cbonus = 0;
-                }*/
+                }
             }
-        });
+        });*/
     }
 
     public int getScore() {
