@@ -131,10 +131,10 @@ public class Lapix extends Agente {
         }
         runIn(time + 7, new Runnable() {
             public void run() {
-                bonus--;
-                if (bonus <= 0) {
+                //bonus--;
+                /*if (bonus <= 0) {
                     cbonus = 0;
-                }
+                }*/
             }
         });
     }
